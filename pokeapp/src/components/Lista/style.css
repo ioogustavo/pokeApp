@@ -4,14 +4,15 @@
 }
 
 .listaCard {
+  background-image: url("../../images/background.webp");
+  background-size: 100%;
   display: flex;
   flex-wrap: wrap;
 }
 
-/* .listaCard > .grid-container > a{
-  width: 86%;
-  height: auto;
-} */
+.listaCard > .grid-container > a{
+  color: black;
+}
 
 .botons {
   display: flex;
