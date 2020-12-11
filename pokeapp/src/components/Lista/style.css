@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "Pixel";
+  src: url(../../fonts/arcadeclassic/ARCADECLASSIC.TTF) format("truetype");
+}
+
+.listaCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* .listaCard > .grid-container > a{
+  width: 86%;
+  height: auto;
+} */
+
+.botons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.botons button {
+  margin: 15px;
+  width: 100px;
+}
+
+.container > .row > .col-sm-8 h1 {
+  font-family: Pixel;
+}
+
+.container > .row > .col-sm-8 img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.grid-container {
+  width: 100%;
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 10px;
+}

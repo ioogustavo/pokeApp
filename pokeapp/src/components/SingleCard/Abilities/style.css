@@ -1,0 +1,8 @@
+.listaAbilitiesBadge {
+  display: flex;
+}
+
+.badge {
+  text-transform: capitalize;
+  margin: 5px;
+}

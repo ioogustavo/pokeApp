@@ -1,0 +1,32 @@
+.listStats {
+  display: flex;
+}
+
+.heart {
+  display: flex;
+}
+
+.attack {
+  display: flex;
+}
+
+.defense {
+  display: flex;
+}
+
+.heart > .heart-img {
+  width: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: auto;
+}
+
+.attack > .attack-img {
+  width: 50px;
+  height: auto;
+}
+
+.defense > .defense-img {
+  width: 50px;
+  height: auto;
+}
