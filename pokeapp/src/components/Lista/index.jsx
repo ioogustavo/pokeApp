@@ -68,7 +68,7 @@ export default function Lista() {
           <div className="grid-container">
             {listaPokemon.map((pokemon, i) => {
               return (
-                <NavLink to={`/pokemon/${pokemon.name}`}>
+                <NavLink to={`/${pokemon.name}`}>
                   <Card key={i} pokemon={pokemon} />
                 </NavLink>
               );

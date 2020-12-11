@@ -1,0 +1,10 @@
+.Navbar {
+  padding: 15px;
+  background: #5353c8;
+}
+
+.Navbar > a > img {
+  width: 100px;
+  display: flex;
+  margin: auto;
+}

@@ -6,7 +6,7 @@ export default function Abilities(props) {
 
   useEffect(() => {
     props && getStats(props);
-  }, []);
+  }, [props]);
 
   function getStats(data) {
     let nameStats = data.props.slice(0, 3).map((e) => {

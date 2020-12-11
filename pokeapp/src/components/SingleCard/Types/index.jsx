@@ -6,7 +6,7 @@ export default function Types(props) {
 
   useEffect(() => {
     props && getTypes(props);
-  }, []);
+  }, [props]);
 
   function getTypes(data) {
     let nameTypes = data.props.map((e) => {

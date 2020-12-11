@@ -6,7 +6,7 @@ export default function Abilities(props) {
 
   useEffect(() => {
     props && getAbilities(props);
-  }, []);
+  }, [props]);
 
   function getAbilities(data) {
     let nameAbilities = data.props.map((e) => {
