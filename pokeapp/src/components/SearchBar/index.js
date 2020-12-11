@@ -7,7 +7,7 @@ export default function SearchBar() {
 
   async function buscar(namePokemon) {
     if(!name) return;
-    let nombre = namePokemon.name;
+    let nombre = namePokemon.name.toLowerCase();
     await searchPokemon(nombre);
   }
 
