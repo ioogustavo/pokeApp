@@ -1,13 +1,15 @@
 import React from "react";
 import "./style.css";
 import Pokebola from "../../images/pokebola.png";
+import { NavLink } from "react-router-dom";
+
 
 function Navbar() {
   return (
     <div className="Navbar">
-      <a href="http://localhost:3000">
+      <NavLink to="/">
         <img src={Pokebola} alt="Pokebola"/>
-      </a>
+      </NavLink>
     </div>
   );
 }

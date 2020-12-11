@@ -1,0 +1,10 @@
+.main {
+  background-image: url("../../images/background.webp");
+  background-size: 100%;
+}
+
+.container > .row > .col-sm-8 {
+  width: 350px;
+  margin: auto;
+  margin-top: 50%;
+}

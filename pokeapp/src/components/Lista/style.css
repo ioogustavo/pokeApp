@@ -4,8 +4,6 @@
 }
 
 .listaCard {
-  background-image: url("../../images/background.webp");
-  background-size: 100%;
   display: flex;
   flex-wrap: wrap;
 }
