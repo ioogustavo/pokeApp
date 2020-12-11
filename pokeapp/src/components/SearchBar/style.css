@@ -1,0 +1,29 @@
+.searchBar {
+  padding: 20px;
+}
+
+.searchBar > .container > .d-flex form > input {
+  margin-right: 0px !important;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  border-color: black;
+  border-width: 2px;
+}
+
+.searchBar > .container > .d-flex form > button {
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-color: black;
+  border-width: 2px;
+  height: 94%;
+  width: auto;
+  color: black;
+}
+
+.searchBar > .container > .d-flex form > button:hover {
+  background-color: wheat;
+}

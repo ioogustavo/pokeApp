@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { getAllPokemon, getPokemon } from "../../services/";
 import Lista from "../Lista";
+import SearchBar from "../SearchBar";
 
 import "./style.css";
 import gif from "../../images/totodile.gif";
@@ -65,6 +66,7 @@ export default function Main() {
         </div>
       ) : (
         <div className="main">
+          <SearchBar />
           <Lista
             listaPokemon={listaPokemon}
             loading={loading}
