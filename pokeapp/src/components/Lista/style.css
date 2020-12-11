@@ -8,8 +8,9 @@
   flex-wrap: wrap;
 }
 
-.listaCard > .grid-container > a{
+.listaCard > .grid-container > a {
   color: black;
+  margin: auto;
 }
 
 .botons {
