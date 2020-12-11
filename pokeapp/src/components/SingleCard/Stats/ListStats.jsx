@@ -6,7 +6,7 @@ import "./style.css";
 
 export default function ListAbilities(props) {
   return (
-    <div>
+    <div className="listStatsContainer">
       <h5>Estadisticas:</h5>
       {props && (
         <div className="listStats">

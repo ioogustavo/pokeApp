@@ -1,3 +1,17 @@
+@font-face {
+  font-family: "Pixel";
+  src: url(../../../fonts/arcadeclassic/ARCADECLASSIC.TTF) format("truetype");
+}
+
+.listStatsContainer {
+  font-family: Pixel;
+}
+
+.listStatsContainer h5 {
+  display: flex;
+  justify-content: center;
+}
+
 .listStats {
   display: flex;
 }

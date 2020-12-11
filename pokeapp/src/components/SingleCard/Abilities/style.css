@@ -1,8 +1,27 @@
+@font-face {
+  font-family: "Pixel";
+  src: url(../../../fonts/arcadeclassic/ARCADECLASSIC.TTF) format("truetype");
+}
+
+.listAbilities {
+  font-family: Pixel;
+}
+
+.listAbilities h5 {
+  display: flex;
+  justify-content: center;
+}
+
 .listaAbilitiesBadge {
   display: flex;
+  justify-content: center;
 }
 
 .badge {
-  text-transform: capitalize;
+  text-transform: uppercase !important;
   margin: 5px;
+}
+
+.title {
+  display: flex;
 }

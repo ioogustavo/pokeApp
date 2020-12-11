@@ -3,7 +3,7 @@ import "./style.css";
 
 export default function ListAbilities(props) {
   return (
-    <div>
+    <div className="listTypes">
       <h5>Tipos:</h5>
       <div className="listTypesBadge">
         {props &&

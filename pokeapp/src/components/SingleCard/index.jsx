@@ -3,6 +3,7 @@ import axios from "axios";
 import Abilities from "./Abilities";
 import Stats from "./Stats";
 import Types from "./Types";
+import "./style.css";
 
 export default function SingleCard() {
   const [pokemon, setPokemon] = useState();
@@ -46,9 +47,7 @@ export default function SingleCard() {
           {pokemon && <Abilities props={pokemon.abilities} />}
         </div>
 
-        <div className="type">
-          {pokemon && <Types props={pokemon.types} />}
-        </div>
+        <div className="type">{pokemon && <Types props={pokemon.types} />}</div>
       </div>
     </div>
   );

@@ -1,8 +1,23 @@
+@font-face {
+  font-family: "Pixel";
+  src: url(../../../fonts/arcadeclassic/ARCADECLASSIC.TTF) format("truetype");
+}
+
+.listTypes {
+  font-family: Pixel;
+}
+
+.listTypes h5 {
+  display: flex;
+  justify-content: center;
+}
+
 .listTypesBadge {
   display: flex;
+  justify-content: center;
 }
 
 .badge {
-  text-transform: capitalize;
+  text-transform: uppercase !important;
   margin: 5px;
 }
