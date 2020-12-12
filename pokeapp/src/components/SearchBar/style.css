@@ -1,5 +1,5 @@
-.searchBar {
-  padding: 20px;
+.searchBar > .container > .d-flex {
+  padding-top: 10px;
 }
 
 .searchBar > .container > .d-flex form > input {
@@ -9,7 +9,7 @@
   border-top-left-radius: 15px;
   border-bottom-left-radius: 15px;
   border-color: black;
-  border-width: 2px;
+  /* border-width: 2px; */
 }
 
 .searchBar > .container > .d-flex form > button {
@@ -18,12 +18,18 @@
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   border-color: black;
-  border-width: 2px;
-  height: 94%;
+  /* border-width: 2px; */
+  /* height: 94%; */
   width: auto;
   color: black;
 }
 
 .searchBar > .container > .d-flex form > button:hover {
-  background-color: wheat;
+  background-color: #23272b;
+  color: white;
+}
+
+.searchBar > .container > .d-flex > .form-inline > .form-control {
+  width: auto;
+  padding: 0;
 }

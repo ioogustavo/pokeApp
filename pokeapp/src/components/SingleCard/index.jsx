@@ -24,16 +24,16 @@ export default function SingleCard() {
 
   return (
     <div>
-      <div className="card">
-        <div className="cards">
+      <div className="singleCard">
+        <div className="singleCards">
           {pokemon && (
-            <h3 className="card-title">{pokemon.name && pokemon.name}</h3>
+            <h3 className="singleCardTitle">{pokemon.name && pokemon.name}</h3>
           )}
         </div>
         <div className="img">
           {pokemon && (
             <img
-              className="card-img-top"
+              className="singleCardImgTop"
               src={pokemon.sprites.front_default}
               alt={pokemon.name}
             />

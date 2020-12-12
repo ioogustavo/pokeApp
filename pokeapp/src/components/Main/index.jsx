@@ -16,9 +16,9 @@ export default function Main() {
   useEffect(() => {
     async function fetchData() {
       let response = await getAllPokemon(mainUrl);
-      setNext(response.next);
-      setPrevious(response.previous);
-      await loadingPokemon(response.results);
+      setNext(response.data.next);
+      setPrevious(response.data.previous);
+      await loadingPokemon(response.data.results);
       setLoading(false);
     }
     fetchData();
@@ -27,9 +27,9 @@ export default function Main() {
   const nextUrl = async () => {
     setLoading(true);
     let data = await getAllPokemon(next);
-    await loadingPokemon(data.results);
-    setNext(data.next);
-    setPrevious(data.previous);
+    await loadingPokemon(data.data.results);
+    setNext(data.data.next);
+    setPrevious(data.data.previous);
     setLoading(false);
   };
 
@@ -37,9 +37,9 @@ export default function Main() {
     if (!previous) return;
     setLoading(true);
     let data = await getAllPokemon(previous);
-    await loadingPokemon(data.results);
-    setNext(data.next);
-    setPrevious(data.previous);
+    await loadingPokemon(data.data.results);
+    setNext(data.data.next);
+    setPrevious(data.data.previous);
     setLoading(false);
   };
 
@@ -47,7 +47,7 @@ export default function Main() {
     let _pokemonData = await Promise.all(
       data.map(async (pokemon) => {
         let pokemonRecord = await getPokemon(pokemon.url);
-        return pokemonRecord;
+        return pokemonRecord.data;
       })
     );
     setListaPokemon(_pokemonData);

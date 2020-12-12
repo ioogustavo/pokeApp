@@ -1,4 +1,60 @@
-.card {
+@font-face {
+  font-family: "Pixel";
+  src: url(../../fonts/arcadeclassic/ARCADECLASSIC.TTF) format("truetype");
+}
+
+.singleCard {
   margin: auto;
-  margin-top: 5px;
+  margin-top: 10px;
+  width: 320px;
+  min-width: 320px;
+  padding: 10px;
+  position: relative;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.singleCard:after,
+.singleCard:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: 3px solid #cc3b1a;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+}
+.singleCard:after {
+  -webkit-transform: translate(3px, 3px);
+  transform: translate(3px, 3px);
+}
+.singleCard:before {
+  -webkit-transform: translate(-3px, -3px);
+  transform: translate(-3px, -3px);
+}
+.singleCard:hover:after,
+.singleCard:hover:before {
+  -webkit-transform: translate(0);
+  transform: translate(0);
+}
+
+.singleCard > .img > img {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.singleCards > h3 {
+  display: flex;
+  justify-content: center;
+  font-family: Pixel;
+}
+
+.img img {
+  display: flex;
+  margin: auto;
 }
