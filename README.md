@@ -4,12 +4,11 @@ Para iniciar el proyecto escriba `git clone https://github.com/ioogustavo/pokeAp
 
 ##### Desarrollo
 
-Aplicación de pokemon donde lista los pokemones por nombre e imagen, cuando se hace click en alguna Card de pokemon te redirecciona a una url de ese pokemon indicandote más detalles del pokemon elegido.
+Aplicación de pokemon donde lista los pokemones por nombre e imagen, cuando se hace click en alguna Card de pokemon te redirecciona a una url de ese pokemon indicandote más detalles del pokemon elegido. Las peticiones se hacen por axios hacia una API de pokemon.
 
-He utilizado bootstrap, css para corregir el documento y he utilizado funciones asincronicas y promesas.
-Tambien he hecho peticiones por axios y fetch.
+Tambien una barra de busqueda donde encontraras pokemon a tu gusto, si no la encuentra te avisará con un cartel de advertencia. En caso de que si lo encuentre te redireccionará hacia su página correspondiente. 
 
-Hasta el momento no he concretado la parte de buscador de pokemon, ya que tengo problemas al momento que rendericé el resultado, superposición con la lista inicial. Seguiré intentando para corregirlo y que funcione correctamente. Ademas pienso refactorizar algunos componentes ya escritos así respeto completamente los principios de SOLID, aunque varios componentes lo cumplen.
+He utilizado bootstrap, css para corregir el documento. He utilizado funciones asincronicas y promesas para cumplir con las peticiones.
 
 <img src='./pokeapp/src/images/Capura1' />
 <img src='./pokeapp/src/images/Captura2' />

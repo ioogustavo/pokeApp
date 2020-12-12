@@ -10,7 +10,6 @@
   border: none !important;
 }
 
-
 .card:after,
 .card:before {
   content: "";
@@ -39,12 +38,6 @@
   transform: translate(0);
 }
 
-
-
-
-
-
-
 .cards {
   text-align: center;
   text-transform: capitalize;
@@ -65,5 +58,6 @@
   height: 150px;
   display: flex;
   margin: auto;
-  width: auto;
+  width: 100%;
+  height: auto;
 }

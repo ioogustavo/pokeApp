@@ -8,3 +8,8 @@
   margin: auto;
   margin-top: 50%;
 }
+
+.container > .row > .col-sm-8 > img {
+  width: 70%;
+  height: auto;
+}
