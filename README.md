@@ -9,7 +9,18 @@ Aplicación de pokemon donde lista los pokemones por nombre e imagen, cuando se 
 Tambien una barra de busqueda donde encontraras pokemon a tu gusto, si no la encuentra te avisará con un cartel de advertencia. En caso de que si lo encuentre te redireccionará hacia su página correspondiente. 
 
 He utilizado bootstrap, css para corregir el documento. He utilizado funciones asincronicas y promesas para cumplir con las peticiones.
-
-<img src='./pokeapp/src/images/Capura1' />
-<img src='./pokeapp/src/images/Captura2' />
-<img src='./pokeapp/src/images/Captura3' />
+<br />
+<hr />
+<br />
+<img src='./pokeapp/src/images/captura1.png' />
+<br />
+<hr />
+<br />
+<img src='./pokeapp/src/images/captura2.png' />
+<br />
+<hr />
+<br />
+<img src='./pokeapp/src/images/captura3.png' />
+<br />
+<hr />
+<br />
