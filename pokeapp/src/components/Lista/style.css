@@ -8,7 +8,7 @@
   flex-wrap: wrap;
 }
 
-.listaCard > .grid-container > a {
+.listaCard > .grid-container > div > a {
   color: black;
   margin: auto;
 }

@@ -10,9 +10,11 @@ export default function Lista(props) {
         {props.listaPokemon &&
           props.listaPokemon.map((pokemon, i) => {
             return (
-              <NavLink to={`/${pokemon.name}`}>
-                <Card key={i} pokemon={pokemon} />
-              </NavLink>
+              <div key={i}>
+                <NavLink to={`/${pokemon.name}`}>
+                  <Card key={i} pokemon={pokemon} />
+                </NavLink>
+              </div>
             );
           })}
       </div>
